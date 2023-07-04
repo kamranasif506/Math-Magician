@@ -1,0 +1,11 @@
+.no-padding {
+  padding: 0;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.result {
+  background-color: darkgray;
+}
