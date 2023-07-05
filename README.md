@@ -61,7 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- React Setup
+- Implement the Calculator design for the App.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
