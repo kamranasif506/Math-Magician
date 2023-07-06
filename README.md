@@ -61,7 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Implement the Calculator design for the App.
+- Implement click event handlers using the math logic from calculate.js and operate.js in your React component.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
