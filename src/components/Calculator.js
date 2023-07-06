@@ -31,6 +31,22 @@ const Calculator = () => {
       return newData;
     });
   };
+  let res = 0;
+  if (Object.hasOwnProperty.call(calculatorData, 'operation')) {
+    if (calculatorData.operation === null
+        && calculatorData.next === null
+        && calculatorData.total === null) {
+      res = calculatorData.total === null ? 0 : calculatorData.total;
+    } else if (calculatorData.next === null
+            && calculatorData.total !== null) {
+      res = calculatorData.total;
+    } else {
+      res = calculatorData.operation === '=' ? calculatorData.total : calculatorData.next;
+    }
+    // res = calculatorData.operation === '=' ? calculatorData.total : calculatorData.next;
+  } else {
+    res = calculatorData.next;
+  }
   return (
     <div className="container mt-5">
       <div className="row no-gutters">
@@ -39,7 +55,7 @@ const Calculator = () => {
             <div className="display">
               <div className="row">
                 <div className="col-12 no-padding">
-                  <input type="text" className="w-100 result text-end text-white" value={calculatorData.total === null ? 0 : calculatorData.total} readOnly />
+                  <input type="text" className="w-100 result text-end text-white" value={res} readOnly />
                 </div>
               </div>
             </div>
