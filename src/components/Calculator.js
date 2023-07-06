@@ -43,7 +43,6 @@ const Calculator = () => {
     } else {
       res = calculatorData.operation === '=' ? calculatorData.total : calculatorData.next;
     }
-    // res = calculatorData.operation === '=' ? calculatorData.total : calculatorData.next;
   } else {
     res = calculatorData.next;
   }
