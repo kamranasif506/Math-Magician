@@ -61,7 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Implement click event handlers using the math logic from calculate.js and operate.js in your React component.
+- Implement click event handlers using the math logic from calculate.js and operate.js in React component.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
