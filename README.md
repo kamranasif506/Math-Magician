@@ -61,7 +61,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Implement click event handlers using the math logic from calculate.js and operate.js in React component.
+- Create new component to fetch the quotes from API NINJA.
+- Import the new component into your main component (next to the Calculator).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
