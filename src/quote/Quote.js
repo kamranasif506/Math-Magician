@@ -62,11 +62,9 @@ function Quotes() {
     <div className="container mt-5 bg-light p-2">
       <div className="row">
         <div className="col-12">
-          <h3 className="text-center">
-            Quotes of the Day
-          </h3>
+
           {data.map((item) => (
-            <p key={item.author} className="text-center mt-2">
+            <p key={item.author} className="text-center mt-2" style={{ fontSize: '1.5rem' }}>
               {item.quote}
               {' '}
               by

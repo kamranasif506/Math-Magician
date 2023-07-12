@@ -61,8 +61,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Create new component to fetch the quotes from API NINJA.
-- Import the new component into your main component (next to the Calculator).
+- Added 3 Pages Home, Calculator, and Quote.
+- Used React Router to make the routes work.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
