@@ -9,3 +9,7 @@
 .result {
   background-color: darkgray;
 }
+
+.border-right {
+  border-right: 1px solid black;
+}
