@@ -71,7 +71,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- Coming Soon
+- [live demo](https://math-magician-1l3r.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
